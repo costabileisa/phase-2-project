@@ -7,7 +7,7 @@ function DogImages() {
     // grab 10 random images from dog ceo api
     useEffect(() => {
         // get dog ceo images
-        fetch("https://dog.ceo/api/breeds/image/random/5")
+        fetch("https://dog.ceo/api/breeds/image/random/4")
         .then(res => res.json())
         .then(async (data) => {
                 
@@ -25,7 +25,12 @@ function DogImages() {
   
         // post new dog ceo images to json file
         data.message.map(link => {
-            const dogName = link.split("/")[4].split("-").join(" ");
+            const dogNameArray = link.split("/")[4].split("-")
+            const reversed = [];
+            for (const i in dogNameArray) {
+                reversed.unshift(dogNameArray[i])
+            }
+            const dogName = reversed.join(" ")
             const desc = "Random picture of " + dogName
   
             const dogObj = {
@@ -43,6 +48,7 @@ function DogImages() {
           })
         })})
 
+        // add dog objects to state
         fetch("http://localhost:4000/images")
         .then(res => res.json())
         .then(data => setImages(data))
@@ -56,7 +62,7 @@ function DogImages() {
     })
 
     return (
-        <div>
+        <div className="row" >
             {displayImages}
         </div>
     )

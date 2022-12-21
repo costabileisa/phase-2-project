@@ -2,9 +2,8 @@ import React from "react";
 
 function Dog({ image }) {
     return (
-      <div className="dog-image">
-        <h1>{image.name}</h1>
-        <small>{image.description}</small>
+      <div className="dog-image column" id={image.id} >
+        <h2 className="dog-header">{image.name}</h2>
         <img src={image.image} alt={image.description} />
     </div>
     )
