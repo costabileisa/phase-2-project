@@ -1,28 +1,28 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/stbernard/n02109525_10251.jpg",
-      "name": "stbernard",
-      "description": "Random picture of stbernard",
-      "id": 17
+      "image": "https://images.dog.ceo/breeds/malamute/n02110063_6746.jpg",
+      "name": "Malamute",
+      "description": "Random picture of Malamute",
+      "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/eskimo/n02109961_3946.jpg",
-      "name": "eskimo",
-      "description": "Random picture of eskimo",
-      "id": 18
+      "image": "https://images.dog.ceo/breeds/lhasa/n02098413_5138.jpg",
+      "name": "Lhasa",
+      "description": "Random picture of Lhasa",
+      "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/bluetick/n02088632_4687.jpg",
-      "name": "bluetick",
-      "description": "Random picture of bluetick",
-      "id": 19
+      "image": "https://images.dog.ceo/breeds/greyhound-italian/n02091032_8298.jpg",
+      "name": "Italian Greyhound",
+      "description": "Random picture of Italian Greyhound",
+      "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_9796.jpg",
-      "name": "staffordshire bullterrier",
-      "description": "Random picture of staffordshire bullterrier",
-      "id": 20
+      "image": "https://images.dog.ceo/breeds/pug/n02110958_16217.jpg",
+      "name": "Pug",
+      "description": "Random picture of Pug",
+      "id": 4
     }
   ]
 }

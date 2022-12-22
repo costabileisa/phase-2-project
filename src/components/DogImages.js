@@ -6,29 +6,30 @@ function DogImages() {
 
     // grab 10 random images from dog ceo api
     useEffect(() => {
+        // delete any current data
+        fetch("http://localhost:4000/images")
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) return;
+            data.forEach(dog => {
+            fetch(`http://localhost:4000/images/${dog.id}`, {
+                method: "DELETE"
+            })
+            })
+        })
+
         // get dog ceo images
         fetch("https://dog.ceo/api/breeds/image/random/4")
         .then(res => res.json())
         .then(async (data) => {
-                
-        // delete any current data
-        await fetch("http://localhost:4000/images")
-        .then(res => res.json())
-        .then(data => {
-          if (data.length === 0) return;
-          data.forEach(dog => {
-            fetch(`http://localhost:4000/images/${dog.id}`, {
-              method: "DELETE"
-            })
-          })
-        })
   
         // post new dog ceo images to json file
         data.message.map(link => {
             const dogNameArray = link.split("/")[4].split("-")
             const reversed = [];
             for (const i in dogNameArray) {
-                reversed.unshift(dogNameArray[i])
+                const capitalized = dogNameArray[i].toUpperCase().slice(0, 1) + dogNameArray[i].toLowerCase().slice(1)
+                reversed.unshift(capitalized)
             }
             const dogName = reversed.join(" ")
             const desc = "Random picture of " + dogName
@@ -62,7 +63,7 @@ function DogImages() {
     })
 
     return (
-        <div className="row" >
+        <div className="dog-container">
             {displayImages}
         </div>
     )
