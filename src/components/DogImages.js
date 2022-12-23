@@ -63,8 +63,11 @@ function DogImages() {
     })
 
     return (
-        <div className="dog-container">
-            {displayImages}
+        <div>
+            <button className="dog-button">Get More Dogs</button>
+            <div className="dog-container">
+                {displayImages}
+            </div>
         </div>
     )
 }

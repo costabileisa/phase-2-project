@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/malamute/n02110063_6746.jpg",
+      "image": "https://images.dog.ceo/breeds/malamute/n02110063_14381.jpg",
       "name": "Malamute",
       "description": "Random picture of Malamute",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/lhasa/n02098413_5138.jpg",
-      "name": "Lhasa",
-      "description": "Random picture of Lhasa",
+      "image": "https://images.dog.ceo/breeds/cattledog-australian/IMG_4379.jpg",
+      "name": "Australian Cattledog",
+      "description": "Random picture of Australian Cattledog",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/greyhound-italian/n02091032_8298.jpg",
-      "name": "Italian Greyhound",
-      "description": "Random picture of Italian Greyhound",
+      "image": "https://images.dog.ceo/breeds/brabancon/n02112706_1430.jpg",
+      "name": "Brabancon",
+      "description": "Random picture of Brabancon",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/pug/n02110958_16217.jpg",
-      "name": "Pug",
-      "description": "Random picture of Pug",
+      "image": "https://images.dog.ceo/breeds/malamute/n02110063_14141.jpg",
+      "name": "Malamute",
+      "description": "Random picture of Malamute",
       "id": 4
     }
   ]

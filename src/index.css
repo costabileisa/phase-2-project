@@ -1,10 +1,14 @@
 body {
-  background-color: #564146;
+  background-color: #ffd1dc;
   margin: 0
 }
 
 .App {
   font-family: Andale Mono, monospace;
+}
+
+.dog-button {
+  margin: 1rem 1rem 0 1rem;
 }
 
 .dog-container {
@@ -16,7 +20,7 @@ body {
 }
 
 .dog-header {
-  color: #ffd1dc;
+  color: #EE5E8F;
   font-size: medium;
 }
 
@@ -33,17 +37,17 @@ body {
   padding: 0;
   overflow: hidden;
 
-  background-color: #BEA5AB;
+  background-color: #A996B0;
   position: inherit;
   width: 100%;
   /* padding: 1rem 0; */
-  box-shadow: 1px 0px 2px 2px #4D2A34;
+  box-shadow: 1px 0px 2px 2px #D5B2C7;
 }
 
 .navbar > a {
   font-size: larger;
   float: left;
-  color: #4D2A34;
+  color: #FFE8FF;
   display: block;
   text-align: center;
   padding: 14px 16px;

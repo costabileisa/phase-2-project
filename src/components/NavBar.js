@@ -2,17 +2,20 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
+    const style = {
+        background: "#FFA5AD",
+    }
     return (
         <div className="navbar">
             <NavLink 
             exact to="/"
-            activeStyle={{background: "#4D2A34", color: "#FFF4F9"}}
+            activeStyle={style}
             >
                 Home
             </NavLink>
             <NavLink 
             exact to="images"
-            activeStyle={{background: "#4D2A34", color: "#FFF4F9"}}
+            activeStyle={style}
             >
                 Images
             </NavLink>
