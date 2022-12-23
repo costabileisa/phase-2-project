@@ -6,10 +6,10 @@ import { EnergyContext } from "../context/energy";
 // import components
 import NavBar from "./NavBar";
 import Home from "./Home";
-import DogImages from "./DogImages";
-import Breeds from "./Breeds";
-import Activities from "./Activities";
-import AddActivity from "./AddActivity";
+import DogImages from "./images/DogImages";
+import Breeds from "./breeds/Breeds";
+import Activities from "./activities/Activities";
+import AddActivity from "./activities/AddActivity";
 
 function App() {
   const [activities, setActivities] = useState([]);

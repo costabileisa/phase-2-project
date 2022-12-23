@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { EnergyContext } from "../context/energy";
+import { EnergyContext } from "../../context/energy";
 
 function ActivitiesFilter() {
     const { energy, setEnergy } = useContext(EnergyContext)

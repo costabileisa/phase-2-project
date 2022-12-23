@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_4351.jpg",
-      "name": "Japanese Spaniel",
-      "description": "Random picture of Japanese Spaniel",
+      "image": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_4005.jpg",
+      "name": "Wheaten Terrier",
+      "description": "Random picture of Wheaten Terrier",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/buhund-norwegian/hakon3.jpg",
-      "name": "Norwegian Buhund",
-      "description": "Random picture of Norwegian Buhund",
+      "image": "https://images.dog.ceo/breeds/mastiff-english/2.jpg",
+      "name": "English Mastiff",
+      "description": "Random picture of English Mastiff",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/bulldog-boston/n02096585_2108.jpg",
-      "name": "Boston Bulldog",
-      "description": "Random picture of Boston Bulldog",
+      "image": "https://images.dog.ceo/breeds/komondor/n02105505_1541.jpg",
+      "name": "Komondor",
+      "description": "Random picture of Komondor",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/pembroke/n02113023_4038.jpg",
-      "name": "Pembroke",
-      "description": "Random picture of Pembroke",
+      "image": "https://images.dog.ceo/breeds/hound-english/n02089973_208.jpg",
+      "name": "English Hound",
+      "description": "Random picture of English Hound",
       "id": 4
     }
   ],
