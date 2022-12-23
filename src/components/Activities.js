@@ -1,13 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Activity from "./Activity"
 
 function Activities({ activities }) {
+    const history = useHistory()
+
+    function handleClick() {
+        history.push("/activities/add")
+    }
+
     return (
         <div className="activities">
-            <Link to="/activities/add">
-                Add Activity
-            </Link>
+            <button onClick={handleClick}>Add Activity</button>
             <table className="activity-table">
                 <tr className="activity-row">
                     <th className="activity-head">Activity</th>

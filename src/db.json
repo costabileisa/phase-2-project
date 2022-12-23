@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/husky/n02110185_13127.jpg",
-      "name": "Husky",
-      "description": "Random picture of Husky",
+      "image": "https://images.dog.ceo/breeds/pointer-germanlonghair/hans1.jpg",
+      "name": "Germanlonghair Pointer",
+      "description": "Random picture of Germanlonghair Pointer",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_2573.jpg",
-      "name": "Chesapeake Retriever",
-      "description": "Random picture of Chesapeake Retriever",
+      "image": "https://images.dog.ceo/breeds/stbernard/n02109525_14676.jpg",
+      "name": "Stbernard",
+      "description": "Random picture of Stbernard",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_9615.jpg",
-      "name": "Cardigan Corgi",
-      "description": "Random picture of Cardigan Corgi",
+      "image": "https://images.dog.ceo/breeds/collie-border/whiskey_caesar.jpg",
+      "name": "Border Collie",
+      "description": "Random picture of Border Collie",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/segugio-italian/n02090722_002.jpg",
-      "name": "Italian Segugio",
-      "description": "Random picture of Italian Segugio",
+      "image": "https://images.dog.ceo/breeds/terrier-silky/n02097658_4728.jpg",
+      "name": "Silky Terrier",
+      "description": "Random picture of Silky Terrier",
       "id": 4
     }
   ],

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function AddActivity({ onFormSubmit }) {
     const [formData, setFormData] = useState({
@@ -43,7 +43,10 @@ function AddActivity({ onFormSubmit }) {
         if (e.target.value !== "") setValid(true)
     }
 
-    console.log(formData)
+    function handleGoBack() {
+        history.push("/activities")
+    }
+
     return (
         <div className="add-activity">
             <form onSubmit={handleSubmit} className="activity-form">
@@ -55,11 +58,11 @@ function AddActivity({ onFormSubmit }) {
                     <option>Medium</option>
                     <option>Low</option>
                 </select>
-                <input type="submit" />
+                <input className="submit-button" type="submit" />
                 <br></br>
                 {valid ? null : <span style={{color: "red"}}>Activity can't be empty!</span>}
                 </form>
-            <Link to="/activities">Go Back</Link>
+            <button onClick={handleGoBack}>Go Back</button>
         </div>
     )
 }

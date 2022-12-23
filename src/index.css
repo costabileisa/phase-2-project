@@ -29,6 +29,35 @@ td {
   font-size: medium;
 }
 
+button {
+  margin: 1rem 1rem 0 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: white;
+  background-color: #A996B0;
+  transition: background-color .17s ease,color .17s ease;
+}
+button:hover {
+  background-color: #D5B2C7;
+}
+
+input {
+  background-color: white;
+}
+input:hover {
+  background-color: #ecedef
+}
+
 /* app component */
 .App {
   font-family: Andale Mono, monospace;
@@ -76,25 +105,8 @@ td {
 }
 .dog-button {
   margin: 1rem 1rem 0 1rem;
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  padding: 2px 16px;
-  height: 38px;
-  min-width: 96px;
-  min-height: 38px;
-  border: none;
-  color: white;
-  background-color: #A996B0;
-  transition: background-color .17s ease,color .17s ease;
 }
-.dog-button:hover {
-  background-color: #D5B2C7;
-}
+
 /* dog image "grid" layout */
 .dog-container {
   display: grid;
