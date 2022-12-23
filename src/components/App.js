@@ -1,5 +1,5 @@
 // react dependencies
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
 // import components
@@ -12,6 +12,13 @@ import AddActivity from "./AddActivity";
 
 function App() {
   const [activities, setActivities] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:4000/activities")
+    .then(res => res.json())
+    .then(data => setActivities(data))
+  }, [])
+
   function onFormSubmit(data) {
     setActivities([...activities, data])
   }
@@ -30,7 +37,7 @@ function App() {
           <Breeds />
         </Route>
         <Route exact path="/activities">
-          <Activities />
+          <Activities activities={activities} />
         </Route>
         <Route exact path="/activities/add">
           <AddActivity onFormSubmit={onFormSubmit}/>
