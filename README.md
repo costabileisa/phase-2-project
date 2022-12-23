@@ -29,5 +29,6 @@ For this project, the requirements were as follows:
 [Video]()
 #
 ## Resources
-[Activities](https://www.care.com/c/101-things-to-do-with-your-dog/) - This was used to create the json data for Activities.  
-[Button](https://copy-paste-css.com/) - Button styling for the "Get More Dogs" button; some colors and values were modified from the example given.
+[Activities](https://www.care.com/c/101-things-to-do-with-your-dog/) - This was used for the json data in the activities section.  
+[Button](https://copy-paste-css.com/) - Button styling for the "Get More Dogs" button; some colors and values were modified from the example given.  
+[Dog CEO API](https://dog.ceo/dog-api/documentation/) - Used for images and breeds
