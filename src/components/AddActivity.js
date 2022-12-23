@@ -34,6 +34,7 @@ function AddActivity({ onFormSubmit }) {
             data = e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1)
         } else {
             data = e.target.value.toLowerCase()
+            console.log(data, e.target.name)
         }
         const newData = {
             ...formData,
@@ -53,7 +54,7 @@ function AddActivity({ onFormSubmit }) {
                 <label>Activity:</label>
                 <input onChange={handleChange} name="activity" type="text" value={formData.activity} />
                 <label>Energy level:</label>
-                <select onChange={handleChange} name="energy" value={formData.energy}>
+                <select onChange={handleChange} name="energy" value={formData.energy.charAt(0).toUpperCase() + formData.energy.slice(1)}>
                     <option>High</option>
                     <option>Medium</option>
                     <option>Low</option>

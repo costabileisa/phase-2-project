@@ -1,6 +1,7 @@
 // react dependencies
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
+import { EnergyContext } from "../context/energy";
 
 // import components
 import NavBar from "./NavBar";
@@ -11,7 +12,9 @@ import Activities from "./Activities";
 import AddActivity from "./AddActivity";
 
 function App() {
-  const [activities, setActivities] = useState([])
+  const [activities, setActivities] = useState([]);
+  const { energy } = useContext(EnergyContext);
+
 
   useEffect(() => {
     fetch("http://localhost:4000/activities")
@@ -22,6 +25,10 @@ function App() {
   function onFormSubmit(data) {
     setActivities([...activities, data])
   }
+
+  const activitiesToDisplay = activities.filter(
+      activity => activity.energy === energy.toLowerCase() || energy === "-"
+    )
 
   return (
     <div className="App">
@@ -37,7 +44,7 @@ function App() {
           <Breeds />
         </Route>
         <Route exact path="/activities">
-          <Activities activities={activities} />
+          <Activities activities={activitiesToDisplay} />
         </Route>
         <Route exact path="/activities/add">
           <AddActivity onFormSubmit={onFormSubmit}/>

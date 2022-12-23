@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Activity from "./Activity"
-import Filter from "./Filter"
+import ActivitiesFilter from "./ActivitiesFilter"
 
 function Activities({ activities }) {
     const history = useHistory()
@@ -10,17 +10,13 @@ function Activities({ activities }) {
         history.push("/activities/add")
     }
 
-    function handleSearch(search) {
-        console.log(search)
-    }
-
     return (
         <div className="activities">
             <div className="activities-extras">
                 <button className="add-activity-btn" onClick={handleClick}>Add Activity</button>
                 <div className="filter activity-filter">
                     <label>Filter by energy level</label>
-                    <Filter type="option" onSearch={handleSearch} />
+                    <ActivitiesFilter />
                 </div>
             </div>
             <table className="activity-table">

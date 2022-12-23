@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/kelpie/n02105412_1201.jpg",
-      "name": "Kelpie",
-      "description": "Random picture of Kelpie",
+      "image": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_4351.jpg",
+      "name": "Japanese Spaniel",
+      "description": "Random picture of Japanese Spaniel",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/wolfhound-irish/n02090721_2361.jpg",
-      "name": "Irish Wolfhound",
-      "description": "Random picture of Irish Wolfhound",
+      "image": "https://images.dog.ceo/breeds/buhund-norwegian/hakon3.jpg",
+      "name": "Norwegian Buhund",
+      "description": "Random picture of Norwegian Buhund",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/kelpie/n02105412_3645.jpg",
-      "name": "Kelpie",
-      "description": "Random picture of Kelpie",
+      "image": "https://images.dog.ceo/breeds/bulldog-boston/n02096585_2108.jpg",
+      "name": "Boston Bulldog",
+      "description": "Random picture of Boston Bulldog",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2796.jpg",
-      "name": "Golden Retriever",
-      "description": "Random picture of Golden Retriever",
+      "image": "https://images.dog.ceo/breeds/pembroke/n02113023_4038.jpg",
+      "name": "Pembroke",
+      "description": "Random picture of Pembroke",
       "id": 4
     }
   ],
@@ -131,10 +131,5 @@
       "activity": "Snag a puppuccino at Starbucks.",
       "energy": "low"
     }
-  ],
-  "energies": {
-    "high": "For the puppy or adult dog up for anything",
-    "medium": "Dogs who enjoy good fun, followed by a nap",
-    "low": "Dogs who just want to be with you"
-  }
+  ]
 }
