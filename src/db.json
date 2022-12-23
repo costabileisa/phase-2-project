@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/malamute/n02110063_14381.jpg",
-      "name": "Malamute",
-      "description": "Random picture of Malamute",
+      "image": "https://images.dog.ceo/breeds/cotondetulear/IMG_20160830_202631573.jpg",
+      "name": "Cotondetulear",
+      "description": "Random picture of Cotondetulear",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/cattledog-australian/IMG_4379.jpg",
-      "name": "Australian Cattledog",
-      "description": "Random picture of Australian Cattledog",
+      "image": "https://images.dog.ceo/breeds/terrier-lakeland/n02095570_601.jpg",
+      "name": "Lakeland Terrier",
+      "description": "Random picture of Lakeland Terrier",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/brabancon/n02112706_1430.jpg",
-      "name": "Brabancon",
-      "description": "Random picture of Brabancon",
+      "image": "https://images.dog.ceo/breeds/clumber/n02101556_5252.jpg",
+      "name": "Clumber",
+      "description": "Random picture of Clumber",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/malamute/n02110063_14141.jpg",
-      "name": "Malamute",
-      "description": "Random picture of Malamute",
+      "image": "https://images.dog.ceo/breeds/eskimo/n02109961_17006.jpg",
+      "name": "Eskimo",
+      "description": "Random picture of Eskimo",
       "id": 4
     }
   ]
