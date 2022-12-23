@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_4005.jpg",
-      "name": "Wheaten Terrier",
-      "description": "Random picture of Wheaten Terrier",
+      "image": "https://images.dog.ceo/breeds/terrier-dandie/n02096437_482.jpg",
+      "name": "Dandie Terrier",
+      "description": "Random picture of Dandie Terrier",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/mastiff-english/2.jpg",
-      "name": "English Mastiff",
-      "description": "Random picture of English Mastiff",
+      "image": "https://images.dog.ceo/breeds/dane-great/n02109047_12899.jpg",
+      "name": "Great Dane",
+      "description": "Random picture of Great Dane",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/komondor/n02105505_1541.jpg",
-      "name": "Komondor",
-      "description": "Random picture of Komondor",
+      "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_6331.jpg",
+      "name": "Golden Retriever",
+      "description": "Random picture of Golden Retriever",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/hound-english/n02089973_208.jpg",
-      "name": "English Hound",
-      "description": "Random picture of English Hound",
+      "image": "https://images.dog.ceo/breeds/pitbull/20190710_143021.jpg",
+      "name": "Pitbull",
+      "description": "Random picture of Pitbull",
       "id": 4
     }
   ],
