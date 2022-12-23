@@ -69,7 +69,7 @@ function DogImages() {
     })
 
     return (
-        <div>
+        <div className="dog-list">
             <button onClick={() => setSend(true)} className="dog-button">Get More Dogs</button>
             <div className="dog-container">
                 {displayImages}

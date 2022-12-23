@@ -25,6 +25,12 @@ function NavBar() {
             >
             Breeds
             </NavLink>
+            <NavLink
+            exact to="/activities"
+            activeStyle={style}
+            >
+            Activities
+            </NavLink>
         </div>
     )
 }

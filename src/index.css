@@ -21,7 +21,7 @@ body {
   min-width: 96px;
   min-height: 38px;
   border: none;
-  color: #fff;
+  color: white;
   background-color: #A996B0;
   transition: background-color .17s ease,color .17s ease;
 }
@@ -73,5 +73,5 @@ body {
   text-decoration: none;
 }
 .navbar > a:hover {
-  background-color: #ffa5ac;
+  background-color: #97849D;
 }
