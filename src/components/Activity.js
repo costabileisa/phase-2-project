@@ -5,8 +5,8 @@ function Activity({ act }) {
 
     return (
         <tr className="activity-row">
-            <td className="activity-head">{activity}</td>
-            <td className="activity-head">{energy}</td>
+            <td className="activity-data">{activity}</td>
+            <td className="activity-data">{energy}</td>
         </tr>
     )
 }

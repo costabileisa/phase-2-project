@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/chihuahua/n02085620_7436.jpg",
-      "name": "Chihuahua",
-      "description": "Random picture of Chihuahua",
+      "image": "https://images.dog.ceo/breeds/husky/n02110185_13127.jpg",
+      "name": "Husky",
+      "description": "Random picture of Husky",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/basenji/n02110806_3929.jpg",
-      "name": "Basenji",
-      "description": "Random picture of Basenji",
+      "image": "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_2573.jpg",
+      "name": "Chesapeake Retriever",
+      "description": "Random picture of Chesapeake Retriever",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_1451.jpg",
-      "name": "Flatcoated Retriever",
-      "description": "Random picture of Flatcoated Retriever",
+      "image": "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_9615.jpg",
+      "name": "Cardigan Corgi",
+      "description": "Random picture of Cardigan Corgi",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/weimaraner/n02092339_4633.jpg",
-      "name": "Weimaraner",
-      "description": "Random picture of Weimaraner",
+      "image": "https://images.dog.ceo/breeds/segugio-italian/n02090722_002.jpg",
+      "name": "Italian Segugio",
+      "description": "Random picture of Italian Segugio",
       "id": 4
     }
   ],

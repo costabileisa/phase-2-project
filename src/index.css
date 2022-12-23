@@ -9,6 +9,26 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+table {
+  width: 100%;
+  height: auto;
+}
+th, td {
+  border: 1px solid #ffd1dc;
+  border-radius: 10px;
+  background-color: #FFE8FF;
+}
+
+th {
+  padding: 1rem;
+  font-size: x-large;
+}
+td {
+  padding: 5px 1rem 5px 1rem;
+  text-align: center;
+  font-size: medium;
+}
+
 /* app component */
 .App {
   font-family: Andale Mono, monospace;
@@ -43,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .home {
   margin: 0;
+  padding: 3rem;
   padding-top: 6rem;
-  padding-left: 3rem;
   display: block;
 }
 
@@ -105,25 +125,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-.breeds-table {
-  width: 100%;
-  height: auto;
-}
-.breeds-header, .breed-info {
-  border: 1px solid #ffd1dc;
-  border-radius: 10px;
-  background-color: #FFE8FF;
-}
-
-.breeds-header {
-  padding: 1rem;
-  font-size: x-large;
-}
-.breed-info {
-  padding: 5px 1rem 5px 1rem;
-  text-align: center;
-  font-size: medium;
-}
 .sub-breed {
   display: contents;
   list-style-type: none;
@@ -131,20 +132,19 @@ h1, h2, h3, h4, h5, h6 {
 /* activities component */
 .activities {
   display: block;
+  padding: 3rem;
   padding-top: 6rem;
-  padding-left: 3rem;
 }
 
 .activity-table {
-  width: 100%;
-  height: auto;
+  padding-top: 1rem;
 }
 
 /* add activity component */
 .add-activity {
   display: block;
+  padding: 3rem;
   padding-top: 5rem;
-  padding-left: 3rem;
 }
 
 .activity-form > input, select {
