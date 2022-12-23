@@ -1,28 +1,140 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/cotondetulear/IMG_20160830_202631573.jpg",
-      "name": "Cotondetulear",
-      "description": "Random picture of Cotondetulear",
+      "image": "https://images.dog.ceo/breeds/bulldog-boston/n02096585_296.jpg",
+      "name": "Boston Bulldog",
+      "description": "Random picture of Boston Bulldog",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/terrier-lakeland/n02095570_601.jpg",
-      "name": "Lakeland Terrier",
-      "description": "Random picture of Lakeland Terrier",
+      "image": "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_3126.jpg",
+      "name": "Norwegian Elkhound",
+      "description": "Random picture of Norwegian Elkhound",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/clumber/n02101556_5252.jpg",
-      "name": "Clumber",
-      "description": "Random picture of Clumber",
+      "image": "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_252.jpg",
+      "name": "Norfolk Terrier",
+      "description": "Random picture of Norfolk Terrier",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/eskimo/n02109961_17006.jpg",
-      "name": "Eskimo",
-      "description": "Random picture of Eskimo",
+      "image": "https://images.dog.ceo/breeds/pointer-german/n02100236_5828.jpg",
+      "name": "German Pointer",
+      "description": "Random picture of German Pointer",
       "id": 4
     }
-  ]
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "activity": "Go on a walking tour of your city.",
+      "energy": "high"
+    },
+    {
+      "id": 2,
+      "activity": "Spend a day swimming and exploring a beach or lake.",
+      "energy": "high"
+    },
+    {
+      "id": 3,
+      "activity": "Go on a bike ride together.",
+      "energy": "high"
+    },
+    {
+      "id": 4,
+      "activity": "Run or jog together.",
+      "energy": "high"
+    },
+    {
+      "id": 5,
+      "activity": "Visit an off-leash dog park where your dog can romp with other dogs.",
+      "energy": "high"
+    },
+    {
+      "id": 6,
+      "activity": "Make a puzzle for your dog to solve.",
+      "energy": "high"
+    },
+    {
+      "id": 7,
+      "activity": "Take an agility or obedience training class.",
+      "energy": "high"
+    },
+    {
+      "id": 8,
+      "activity": "Stock up on toys together at your favorite pet-friendly store.",
+      "energy": "medium"
+    },
+    {
+      "id": 9,
+      "activity": "Take your dog on a boat ride.",
+      "energy": "medium"
+    },
+    {
+      "id": 10,
+      "activity": "Teach your dog a new trick.",
+      "energy": "medium"
+    },
+    {
+      "id": 11,
+      "activity": "Play in a sprinkler, leaves or snow.",
+      "energy": "medium"
+    },
+    {
+      "id": 12,
+      "activity": "Enjoy a stay at a pet-friendly hotel or bed and breakfast.",
+      "energy": "medium"
+    },
+    {
+      "id": 13,
+      "activity": "Throw a puppy party.",
+      "energy": "medium"
+    },
+    {
+      "id": 14,
+      "activity": "Find a unique spot for an Instagram photoshoot.",
+      "energy": "medium"
+    },
+    {
+      "id": 15,
+      "activity": "Netflix and nap.",
+      "energy": "low"
+    },
+    {
+      "id": 16,
+      "activity": "Take your dog to work.",
+      "energy": "low"
+    },
+    {
+      "id": 17,
+      "activity": "Give your dog a mani-pedi.",
+      "energy": "low"
+    },
+    {
+      "id": 18,
+      "activity": "Book a “doga” session.",
+      "energy": "low"
+    },
+    {
+      "id": 19,
+      "activity": "Sing to your dog.",
+      "energy": "low"
+    },
+    {
+      "id": 20,
+      "activity": "Practice patience by balancing treats on your pet's nose.",
+      "energy": "low"
+    },
+    {
+      "id": 21,
+      "activity": "Snag a puppuccino at Starbucks.",
+      "energy": "low"
+    }
+  ],
+  "energies": {
+    "high": "For the puppy or adult dog up for anything",
+    "medium": "Dogs who enjoy good fun, followed by a nap",
+    "low": "Dogs who just want to be with you"
+  }
 }

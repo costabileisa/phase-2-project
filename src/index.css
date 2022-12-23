@@ -9,6 +9,24 @@ body {
 
 .dog-button {
   margin: 1rem 1rem 0 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: #fff;
+  background-color: #A996B0;
+  transition: background-color .17s ease,color .17s ease;
+}
+.dog-button:hover {
+  background-color: #D5B2C7;
 }
 
 .dog-container {
@@ -45,6 +63,7 @@ body {
 }
 
 .navbar > a {
+  transition: background-color .17s ease,color .17s ease;
   font-size: larger;
   float: left;
   color: #FFE8FF;
@@ -52,4 +71,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+.navbar > a:hover {
+  background-color: #ffa5ac;
 }

@@ -11,13 +11,19 @@ function NavBar() {
             exact to="/"
             activeStyle={style}
             >
-                Home
+            Home
             </NavLink>
             <NavLink 
             exact to="images"
             activeStyle={style}
             >
-                Images
+            Images
+            </NavLink>
+            <NavLink
+            exact to="breeds"
+            activeStyle={style}
+            >
+            Breeds
             </NavLink>
         </div>
     )
