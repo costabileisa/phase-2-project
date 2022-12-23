@@ -21,16 +21,19 @@ function Breeds() {
         })
     }, [])
 
-    const getBreedInfo = breeds.map(breed => {
-        return (
-            <BreedInfo key={breed} />
-        )
-    })
+    const getBreedInfo = breeds.map(breed => <BreedInfo key={breed.name} breed={breed} />)
 
-    console.log(breeds)
     return (
-        <div className="breeds">
-            {}
+        <div className="breeds-container">
+            <table className="breeds-table">
+                <tbody>
+                    <tr>
+                        <th className="breeds-header">Breeds</th>
+                        <th className="breeds-header">Sub-Breeds</th>
+                    </tr>
+                        {getBreedInfo}
+                </tbody>
+            </table>
         </div>
     )
 }

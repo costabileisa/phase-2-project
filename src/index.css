@@ -1,12 +1,42 @@
+/* html file */
 body {
   background-color: #ffd1dc;
   margin: 0
 }
 
+/* app component */
 .App {
   font-family: Andale Mono, monospace;
 }
 
+/* navbar component */
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #A996B0;
+  position: inherit;
+  width: 100%;
+  /* padding: 1rem 0; */
+  box-shadow: 1px 0px 2px 2px #D5B2C7;
+}
+.navbar > a {
+  transition: background-color .17s ease,color .17s ease;
+  font-size: larger;
+  float: left;
+  color: #FFE8FF;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar > a:hover {
+  background-color: #97849D;
+}
+
+/* images component */
+/* get more dogs button */
 .dog-button {
   margin: 1rem 1rem 0 1rem;
   display: inline-block;
@@ -29,6 +59,7 @@ body {
   background-color: #D5B2C7;
 }
 
+/* dog image "grid" layout */
 .dog-container {
   display: grid;
   grid-auto-columns: auto;
@@ -36,12 +67,10 @@ body {
   gap: 5px;
   margin: 0 1rem;
 }
-
 .dog-header {
   color: #EE5E8F;
   font-size: medium;
 }
-
 .dog-image {
   object-fit: cover;
   width: 100%;
@@ -50,28 +79,34 @@ body {
   margin-top: 8px;
 }
 
-.navbar {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* breeds component */
+.breeds-container {
+  width: 90%;
+  margin: auto;
+  padding: 2rem
+}
 
-  background-color: #A996B0;
-  position: inherit;
+.breeds-table {
   width: 100%;
-  /* padding: 1rem 0; */
-  box-shadow: 1px 0px 2px 2px #D5B2C7;
+  height: auto;
+}
+.breeds-header, .breed-info {
+  border: 1px solid #ffd1dc;
+  border-radius: 10px;
+  background-color: #FFE8FF;
 }
 
-.navbar > a {
-  transition: background-color .17s ease,color .17s ease;
-  font-size: larger;
-  float: left;
-  color: #FFE8FF;
-  display: block;
+.breeds-header {
+  padding: 1rem;
+  font-size: x-large;
+}
+.breed-info {
+  padding: 5px 1rem 5px 1rem;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-size: medium;
 }
-.navbar > a:hover {
-  background-color: #97849D;
+.sub-breed {
+  display: contents;
+  list-style-type: none;
 }
+

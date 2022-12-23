@@ -3,13 +3,17 @@ import React from "react";
 function BreedInfo({ breed }) {
     const { name, subBreeds } = breed
 
-    const sub = subBreeds.map(subB => <li className={breed}>{subB}</li>)
+    const sub = subBreeds.map(subB => <li key={subB}>{subB}</li>)
     return (
-        <div className="breed" id={name}>
-            <h3 className="breed-header">{name}</h3>
-            <ul>
-              {sub}
-            </ul>
-        </div>
+        <tr>
+            <td className="breed-info">{name}</td>
+            <td className="breed-info">
+                <ul className="sub-breed">
+                    {sub}
+                </ul>
+            </td>
+        </tr>
     )
 }
+
+export default BreedInfo;
