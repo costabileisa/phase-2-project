@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Phase 2 Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Flatiron School's Phase 2 was all about React!  
+Phase 1 seemed to work with the [Dog CEO API](https://dog.ceo/dog-api/documentation/) a lot. In Phase 2, this API was not used as often, so there were not as many cute dogs to see! Using Dog CEO in the Phase 2 project gave the opportunity to still work with dogs!  
+In the images section, random dog images are added by making a `GET` request to Dog CEO, then making a `POST` request to the `json-server`, then finally, updating state. Dog CEO also provides the data for the Breeds section. Since `json-server` needed to be used with controlled forms as well, activities were manually added.  
+The project utilizes `BrowserRouter`, `Switch`, `Route` and `NavLink` from `react-router-dom` to handle all client-side routing. 
+#
+## Requirements
+For this project, the requirements were as follows:
+- Create a React single page application from scratch
+- Apply knowledge of components, props, and state management
+- Incorporate client-side routing
+- Utilize `json-server` to create a RESTful api
+    - Make both a `GET` and `POST` request to the `json-server`
+    - Keep data simple
+    - After returning json from `POST`, update state
+- Add some CSS styling
+#
+## Features
+- Uses client-side routing, which makes navigating through the application faster
+- Images are always randomly generated, with the option to list more as many times as wanted
+- Navigation Bar has CSS styling that makes it easier to navigate
+- Option to add activities with a form to the activities section
+- Breeds can be searched by partial matches
+#
+## Review Links
+[Application]()  
+[Blog]()  
+[Video]()
+#
+## Resources
+[Activities](https://www.care.com/c/101-things-to-do-with-your-dog/) - This was used to create the json data for Activities.  
+[Button](https://copy-paste-css.com/) - Button styling for the "Get More Dogs" button; some colors and values were modified from the example given.
