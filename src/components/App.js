@@ -20,10 +20,10 @@ function App() {
         <Route exact path="/images">
           <DogImages />
         </Route>
-        <Route exact path="./breeds">
+        <Route exact path="/breeds">
           <Breeds />
         </Route>
-        <Route exact path="./activities">
+        <Route exact path="/activities">
           <Activities />
         </Route>
       </Switch>
