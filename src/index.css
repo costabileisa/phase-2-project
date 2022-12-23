@@ -4,6 +4,11 @@ body {
   margin: 0
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
 /* app component */
 .App {
   font-family: Andale Mono, monospace;
@@ -11,15 +16,16 @@ body {
 
 /* navbar component */
 .navbar {
+  overflow: hidden;
+  position: fixed;
   margin: 0;
   padding: 0;
   overflow: hidden;
 
   background-color: #A996B0;
-  position: inherit;
   width: 100%;
   /* padding: 1rem 0; */
-  box-shadow: 1px 0px 2px 2px #D5B2C7;
+  box-shadow: 0px 0px 10px 4px #D5B2C7;
 }
 .navbar > a {
   transition: background-color .17s ease,color .17s ease;
@@ -35,8 +41,19 @@ body {
   background-color: #97849D;
 }
 
+.home {
+  margin: 0;
+  padding-top: 6rem;
+  padding-left: 3rem;
+  display: block;
+}
+
 /* images component */
 /* get more dogs button */
+.dog-list {
+  display: block;
+  padding-top: 4rem;
+}
 .dog-button {
   margin: 1rem 1rem 0 1rem;
   display: inline-block;
@@ -58,7 +75,6 @@ body {
 .dog-button:hover {
   background-color: #D5B2C7;
 }
-
 /* dog image "grid" layout */
 .dog-container {
   display: grid;
@@ -66,6 +82,7 @@ body {
   grid-auto-flow: column;
   gap: 5px;
   margin: 0 1rem;
+  padding-top: 1rem;
 }
 .dog-header {
   color: #EE5E8F;
@@ -81,9 +98,11 @@ body {
 
 /* breeds component */
 .breeds-container {
+  display: block;
+  padding: 3rem;
+  padding-top: 6rem;
   width: 90%;
   margin: auto;
-  padding: 2rem
 }
 
 .breeds-table {
@@ -109,4 +128,27 @@ body {
   display: contents;
   list-style-type: none;
 }
+/* activities component */
+.activities {
+  display: block;
+  padding-top: 6rem;
+  padding-left: 3rem;
+}
 
+/* add activity component */
+.add-activity {
+  display: block;
+  padding-top: 5rem;
+  padding-left: 3rem;
+}
+
+.activity-form > input, select {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #A996B0
+}
+.activity-form > input:focus, select:focus {
+  outline: none;
+  box-shadow: #97849D;
+}

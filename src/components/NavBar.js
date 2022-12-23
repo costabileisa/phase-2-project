@@ -14,19 +14,19 @@ function NavBar() {
             Home
             </NavLink>
             <NavLink 
-            exact to="images"
+            exact to="/images"
             activeStyle={style}
             >
             Images
             </NavLink>
             <NavLink
-            exact to="breeds"
+            exact to="/breeds"
             activeStyle={style}
             >
             Breeds
             </NavLink>
             <NavLink
-            exact to="/activities"
+            to="/activities"
             activeStyle={style}
             >
             Activities

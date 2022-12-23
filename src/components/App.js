@@ -8,8 +8,10 @@ import Home from "./Home";
 import DogImages from "./DogImages";
 import Breeds from "./Breeds";
 import Activities from "./Activities";
+import AddActivity from "./AddActivity";
 
 function App() {
+
   return (
     <div className="App">
       <NavBar />
@@ -25,6 +27,9 @@ function App() {
         </Route>
         <Route exact path="/activities">
           <Activities />
+        </Route>
+        <Route exact path="/activities/add">
+          <AddActivity />
         </Route>
       </Switch>
     </div>

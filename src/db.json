@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/labradoodle/lola.jpg",
-      "name": "Labradoodle",
-      "description": "Random picture of Labradoodle",
+      "image": "https://images.dog.ceo/breeds/chihuahua/n02085620_7436.jpg",
+      "name": "Chihuahua",
+      "description": "Random picture of Chihuahua",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/hound-plott/hhh-23456.jpg",
-      "name": "Plott Hound",
-      "description": "Random picture of Plott Hound",
+      "image": "https://images.dog.ceo/breeds/basenji/n02110806_3929.jpg",
+      "name": "Basenji",
+      "description": "Random picture of Basenji",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_656.jpg",
-      "name": "Welsh Spaniel",
-      "description": "Random picture of Welsh Spaniel",
+      "image": "https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_1451.jpg",
+      "name": "Flatcoated Retriever",
+      "description": "Random picture of Flatcoated Retriever",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_907.jpg",
-      "name": "Norfolk Terrier",
-      "description": "Random picture of Norfolk Terrier",
+      "image": "https://images.dog.ceo/breeds/weimaraner/n02092339_4633.jpg",
+      "name": "Weimaraner",
+      "description": "Random picture of Weimaraner",
       "id": 4
     }
   ],
