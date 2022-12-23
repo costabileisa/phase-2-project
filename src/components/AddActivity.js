@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 
-function AddActivity() {
+function AddActivity({ onFormSubmit }) {
     const [formData, setFormData] = useState({
         activity: "",
         energy: "high"
@@ -22,6 +22,9 @@ function AddActivity() {
             },
             body: JSON.stringify(formData)
         })
+        .then(res => res.json())
+        .then(data => onFormSubmit(data))
+
         history.push("/activities");
     }
 

@@ -1,5 +1,5 @@
 // react dependencies
-import React from "react";
+import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
 // import components
@@ -11,6 +11,10 @@ import Activities from "./Activities";
 import AddActivity from "./AddActivity";
 
 function App() {
+  const [activities, setActivities] = useState([])
+  function onFormSubmit(data) {
+    setActivities([...activities, data])
+  }
 
   return (
     <div className="App">
@@ -29,7 +33,7 @@ function App() {
           <Activities />
         </Route>
         <Route exact path="/activities/add">
-          <AddActivity />
+          <AddActivity onFormSubmit={onFormSubmit}/>
         </Route>
       </Switch>
     </div>
