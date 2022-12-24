@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Dog from "./Dog"
 
-const url = "https://costabileisa.github.io/phase-2-api/db.json"
-
 function DogImages() {
+    const url = "https://costabileisa.github.io/phase-2-api"
+
     const [images, setImages] = useState([])
     const [send, setSend] = useState(false);
 
@@ -11,7 +11,7 @@ function DogImages() {
     useEffect(() => {
         if (send === true) return;
         // delete any current data
-        fetch(`${url}/images`)
+        fetch(`${url}/images.json`)
         .then(res => res.json())
         .then(data => {
             if (data.length === 0) return;
@@ -43,7 +43,7 @@ function DogImages() {
                 description: desc
                 }
                 
-                fetch(`${url}/images`, {
+                fetch(`${url}/images.json`, {
                 method: "POST",
                 headers: {
                 "Content-Type": "application/json",
@@ -54,7 +54,7 @@ function DogImages() {
         })
 
         // add dog objects to state
-        fetch(`${url}/images`)
+        fetch(`${url}/images.json`)
         .then(res => res.json())
         .then(data => setImages(data))
 

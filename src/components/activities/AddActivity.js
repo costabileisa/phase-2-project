@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-const url = "https://costabileisa.github.io/phase-2-api/db.json"
-
 function AddActivity({ onFormSubmit }) {
+    const url = "https://costabileisa.github.io/phase-2-api"
+
     const [formData, setFormData] = useState({
         activity: "",
         energy: "high"
@@ -17,7 +17,7 @@ function AddActivity({ onFormSubmit }) {
 
         if (formData.activity === "") return setValid(false)
             
-        fetch(`${url}/activities`, {
+        fetch(`${url}/activities.json`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

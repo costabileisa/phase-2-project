@@ -12,12 +12,14 @@ import Activities from "./activities/Activities";
 import AddActivity from "./activities/AddActivity";
 
 function App() {
+  const url = "https://costabileisa.github.io/phase-2-api"
+
   const [activities, setActivities] = useState([]);
   const { energy } = useContext(EnergyContext);
 
 
   useEffect(() => {
-    fetch("http://localhost:4000/activities")
+    fetch(`${url}/activities.json`)
     .then(res => res.json())
     .then(data => setActivities(data))
   }, [])

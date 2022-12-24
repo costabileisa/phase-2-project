@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 
 function Activity({ act }) {
     const { activity, energy } = act;
