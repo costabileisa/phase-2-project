@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 function AddActivity({ onFormSubmit }) {
-    const url = "https://costabileisa.github.io/phase-2-api"
+    // const url = "https://costabileisa.github.io/phase-2-api"
+    const url = "http://localhost:4000"
 
     const [formData, setFormData] = useState({
         activity: "",
@@ -17,7 +18,7 @@ function AddActivity({ onFormSubmit }) {
 
         if (formData.activity === "") return setValid(false)
             
-        fetch(`${url}/activities.json`, {
+        fetch(`${url}/activities`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
