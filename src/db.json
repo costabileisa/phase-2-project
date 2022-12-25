@@ -1,27 +1,27 @@
 {
   "images": [
     {
-      "image": "https://images.dog.ceo/breeds/hound-walker/n02089867_3253.jpg",
-      "name": "Walker Hound",
-      "description": "Random picture of Walker Hound",
+      "image": "https://images.dog.ceo/breeds/terrier-toy/n02087046_228.jpg",
+      "name": "Toy Terrier",
+      "description": "Random picture of Toy Terrier",
       "id": 1
     },
     {
-      "image": "https://images.dog.ceo/breeds/pitbull/20190801_154956.jpg",
-      "name": "Pitbull",
-      "description": "Random picture of Pitbull",
+      "image": "https://images.dog.ceo/breeds/beagle/n02088364_2502.jpg",
+      "name": "Beagle",
+      "description": "Random picture of Beagle",
       "id": 2
     },
     {
-      "image": "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_1155.jpg",
-      "name": "Tibetan Mastiff",
-      "description": "Random picture of Tibetan Mastiff",
+      "image": "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_118.jpg",
+      "name": "Westhighland Terrier",
+      "description": "Random picture of Westhighland Terrier",
       "id": 3
     },
     {
-      "image": "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2197.jpg",
-      "name": "Yorkshire Terrier",
-      "description": "Random picture of Yorkshire Terrier",
+      "image": "https://images.dog.ceo/breeds/dachshund/dachshund-1920_640.jpg",
+      "name": "Dachshund",
+      "description": "Random picture of Dachshund",
       "id": 4
     }
   ],
