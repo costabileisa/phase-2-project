@@ -20,6 +20,8 @@ or
 cd phase-2-project
 code .
 ```
+Now, inside the VS Code terminal (this will ensure you are in the proper folder), follow these next steps:    
+
 Install dependencies:
 ```console
 npm install
