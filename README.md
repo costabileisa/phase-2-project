@@ -20,6 +20,10 @@ or
 cd phase-2-project
 code .
 ```
+Install dependencies:
+```console
+npm install
+```
 Now, run the server:
 ```console
 npm run server
@@ -29,7 +33,7 @@ You should now be able to access the server on
 or     
 `http://localhost:4000/activities` - for activities  
       
-Finally, start the application:
+In a separate terminal, start the application:
 ```console
 npm start
 ```
