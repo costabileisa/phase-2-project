@@ -27,7 +27,7 @@ function Breeds() {
         setSearch(search)
     }
 
-    const breedsToList = breeds.filter(breed => breed.name.toLowerCase().includes(search.toLowerCase()))
+    const breedsToList = breeds.filter(breed => breed.name.toLowerCase().startsWith(search.toLowerCase()))
     const getBreedInfo = breedsToList.map(breed => <BreedInfo key={breed.name} breed={breed} />)
 
     return (
