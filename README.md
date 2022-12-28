@@ -8,29 +8,29 @@ The project utilizes `BrowserRouter`, `Switch`, `Route` and `NavLink` from `reac
 
 ## Installation
 In the terminal, clone the project repo:
-```shell
+```console
 git clone https://github.com/costabileisa/phase-2-project.git
 ```
 Then open it:
-```shell
+```console
 code phase-2-project
 ```
 or
-```shell
+```console
 cd phase-2-project
 code .
 ```
 Now, run the server:
-```shell
+```console
 npm run server
 ```
-You should now be able to access the server on 
+You should now be able to access the server on     
 `http://localhost:4000/images` - for images      
 or     
 `http:localhost:4000/activities` - for activities  
       
 Finally, start the application:
-```shell
+```console
 npm start
 ```
 The application should open at `http://localhost:3000` by default. You may be prompted to open it using a different port if 3000 is in use. To open using a different port, just press "y" when prompted!
