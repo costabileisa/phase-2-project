@@ -5,6 +5,36 @@ Phase 1 seemed to work with the [Dog CEO API](https://dog.ceo/dog-api/documentat
 In the images section, random dog images are added by making a `GET` request to Dog CEO, then making a `POST` request to the `json-server`, then finally, updating state. Dog CEO also provides the data for the Breeds section. Since `json-server` needed to be used with controlled forms as well, activities were manually added.  
 The project utilizes `BrowserRouter`, `Switch`, `Route` and `NavLink` from `react-router-dom` to handle all client-side routing. 
     
+
+## Installation
+In the terminal, clone the project repo:
+```shell
+git clone https://github.com/costabileisa/phase-2-project.git
+```
+Then open it:
+```shell
+code phase-2-project
+```
+or
+```shell
+cd phase-2-project
+code .
+```
+Now, run the server:
+```shell
+npm run server
+```
+You should now be able to access the server on 
+`http://localhost:4000/images` - for images      
+or     
+`http:localhost:4000/activities` - for activities  
+      
+Finally, start the application:
+```shell
+npm start
+```
+The application should open at `http://localhost:3000` by default. You may be prompted to open it using a different port if 3000 is in use. To open using a different port, just press "y" when prompted!
+    
 ## Requirements
 For this project, the requirements were as follows:
 - Create a React single page application from scratch
@@ -20,8 +50,8 @@ For this project, the requirements were as follows:
 - Uses client-side routing, which makes navigating through the application faster
 - Images are always randomly generated, with the option to list more as many times as wanted
 - Navigation Bar has CSS styling that makes it easier to navigate
-- Option to add activities with a form to the activities section
-- Breeds can be searched by partial matches
+- Option to add an activity to the activities section using a form
+- Breeds can be searched by starting letter
     
 ## Review Links
 [Application]()  
