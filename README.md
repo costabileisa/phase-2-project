@@ -27,7 +27,7 @@ npm run server
 You should now be able to access the server on     
 `http://localhost:4000/images` - for images      
 or     
-`http:localhost:4000/activities` - for activities  
+`http://localhost:4000/activities` - for activities  
       
 Finally, start the application:
 ```console
@@ -54,8 +54,8 @@ For this project, the requirements were as follows:
 - Breeds can be searched by starting letter
     
 ## Review Links
-[Application]()  
-[Blog]()  
+[GitHub Repo](https://github.com/costabileisa/phase-2-project)  
+[Blog Post - The Importance of Organization](https://medium.com/@costabileisa/the-importance-of-organization-2274d66c6b30)  
 [Video]()
     
 ## Resources
