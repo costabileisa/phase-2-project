@@ -62,7 +62,7 @@ For this project, the requirements were as follows:
 ## Review Links
 [GitHub Repo](https://github.com/costabileisa/phase-2-project)  
 [Blog Post - The Importance of Organization](https://medium.com/@costabileisa/the-importance-of-organization-2274d66c6b30)  
-[Video]()
+[Video](https://youtu.be/NCxh3e4e4F8)
     
 ## Resources
 [Activities](https://www.care.com/c/101-things-to-do-with-your-dog/) - This was used for the json data in the activities section.  
