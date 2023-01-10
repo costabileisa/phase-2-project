@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Dog from "./Dog"
 
 function DogImages() {
-    // const url = "https://costabileisa.github.io/phase-2-api"
     const url = "http://localhost:4000"
 
     const [images, setImages] = useState([])
@@ -24,9 +23,9 @@ function DogImages() {
         })
 
         // get dog ceo images
-        fetch("https://dog.ceo/api/breeds/image/random/4")
+        fetch("https://dog.ceo/api/breeds/image/random/4", {cache: "no-store"})
         .then(res => res.json())
-        .then(async (data) => {
+        .then(data => {
             // post new dog ceo images to json file
             data.message.map(link => {
                 const dogNameArray = link.split("/")[4].split("-")
